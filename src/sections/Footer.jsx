@@ -32,17 +32,18 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {footerLinks.map((section) => (
             <div key={section.title}>
-              <h4 className='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
+              <h4 className="font-montserrat text-2xl font-medium mb-6 text-white">
                 {section.title}
               </h4>
+
               <ul>
                 {section.links.map((link) => (
                   <li
-                    className='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
                     key={link.name}
+                    className="mt-3 font-montserrat text-base text-white-400 hover:text-slate-gray"
                   >
                     <a href={link.link}>{link.name}</a>
                   </li>
@@ -51,6 +52,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
+
       </div>
 
       <div className='flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center'>
@@ -63,7 +65,7 @@ const Footer = () => {
             className='rounded-full m-0'
           />
           <p>Copyright. All rights reserved.</p>
-         
+
         </div>
       </div>
     </footer>

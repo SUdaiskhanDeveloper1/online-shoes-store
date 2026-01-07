@@ -86,7 +86,19 @@ export const reviews = [
         customerName: 'Lota Mongeskar',
         rating: 4.8,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+    },
+    {
+        imgURL: customer2,
+        customerName: 'Lota Mongeskar',
+        rating: 4.8,
+        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
+    {
+        imgURL: customer2,
+        customerName: 'Lota Mongeskar',
+        rating: 4.8,
+        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
 ];
 
 
@@ -117,7 +129,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "sudais8075@gmail.com",  link: "/" },
-            { name: "03009900000",  link: "/" },
+            { name: "0300 2331231",  link: "/" },
         ],
     },
 ];
