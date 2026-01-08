@@ -26,7 +26,7 @@ const Hero = () => {
           <span className='text-coral-red inline-block mt-3'>ECS</span> Shoes
         </h1>
         <p className='font-montserrat text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-        Step into style and comfort with ECS — where innovation meets your active lifestyl
+        Step into style and comfort with ECS — where innovation meets your active lifestyle
         </p>
 
         <Button label='Shop now' iconURL={arrowRight} />
